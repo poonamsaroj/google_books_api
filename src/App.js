@@ -1,8 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import BookContainer from './components/BookContainer';
 
 const App = () => {
     return (
-        <Hero />
+        <>
+            <Header />
+            <BookContainer />
+            <Footer />
+        </>
     )
 }
 
